@@ -1,0 +1,54 @@
+# Update pyproject.toml with complete configuration
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fairfic"
+version = "0.1.0"
+description = "Fairness Information Criterion for algorithmic fairness evaluation"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Dr. Akin", email = "your.email@example.com"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["fairness", "machine-learning", "algorithmic-fairness", "metrics", "evaluation"]
+dependencies = [
+    "numpy>=1.21.0",
+    "pandas>=1.3.0",
+    "scikit-learn>=1.0",
+    "matplotlib>=3.5",
+    "seaborn>=0.11",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=22.0",
+    "flake8>=5.0",
+    "jupyter>=1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ojakintande/fairfic"
+Repository = "https://github.com/ojakintande/fairfic"
+"Issue Tracker" = "https://github.com/ojakintande/fairfic/issues"
+
+[tool.setuptools]
+packages = ["fairfic", "fairfic.data"]
+
+[tool.setuptools.package-dir]
+"" = "."
+"fairfic" = "fairfic"
+"fairfic.data" = "fairfic/data"

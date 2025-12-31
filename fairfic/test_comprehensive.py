@@ -22,7 +22,7 @@ print("="*80)
 
 # Test 1: Basic FIC functionality
 print("\n✅ Test 1: Basic FIC functionality")
-fic = FairnessInformationCriterion([0.05, 0.10, 0.15])
+fic = FairnessInformationCriterion([0.05, 0.10, 0.15, 0.20])
 print(f"   Created FIC with alphaF values: {fic.alphaF_values}")
 
 # Test 2: Metrics computation

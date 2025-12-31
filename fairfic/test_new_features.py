@@ -39,7 +39,7 @@ try:
     results = analyze_dataset_fairness(
         X=X, y=y, groups=groups,
         model_type='logistic',
-        alphaF_values=[0.05, 0.10]
+        alphaF_values=[0.05, 0.10, 0.15, 0.20]
     )
     
     print(f"✅ analyze_dataset_fairness successful!")

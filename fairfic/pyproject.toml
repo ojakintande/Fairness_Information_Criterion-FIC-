@@ -10,7 +10,7 @@ description = "Fairness Information Criterion for algorithmic fairness evaluatio
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
-    {name = "Dr. Akin", email = "your.email@example.com"},
+    {name = "Dr. O. J. Akintande", email = "aojsoft@gmail.com"},
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",

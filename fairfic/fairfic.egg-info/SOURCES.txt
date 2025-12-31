@@ -1,8 +1,13 @@
+LICENSE
+README.md
 pyproject.toml
 fairfic/__init__.py
 fairfic/core.py
 fairfic/evaluation.py
 fairfic/metrics.py
+fairfic/test_comprehensive.py
+fairfic/test_metrics_fix.py
+fairfic/test_new_features.py
 fairfic/visualization.py
 fairfic.egg-info/PKG-INFO
 fairfic.egg-info/SOURCES.txt

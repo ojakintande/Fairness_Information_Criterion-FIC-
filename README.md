@@ -26,16 +26,18 @@ To apply the FIC framework to your model:
 
 i.  **Environment:** Ensure R (v4.x) is installed.
 ii.  **Dependencies:** Install the required statistical packages:
+
 ```r
     install.packages(c("tidyverse", "boot", "ggplot2"))
-    ```
+```
 iii.  **Implementation:** Load the FIC module and define your audit parameters:
 ```r
     # Example usage:
     source("scripts/fic_engine.R")
     audit_results <- calculate_fic(model_outputs, alpha_f = 0.05)
     print(audit_results$tier_benchmark)
-    ```
+```
+
 ## 5. Citation
 If this framework contributes to your research or auditing practice, please cite our manuscript
 

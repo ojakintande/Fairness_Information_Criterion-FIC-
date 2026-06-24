@@ -37,7 +37,7 @@ ii.  **Implementation:** Load the FIC module and define your audit parameters:
     audit_results <- calculate_fic(model_outputs, alpha_f = 0.05)
     print(audit_results$tier_benchmark)
 ```
-#-------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
 ## 5. Citation
 If this framework contributes to your research or auditing practice, please cite our manuscript
 
